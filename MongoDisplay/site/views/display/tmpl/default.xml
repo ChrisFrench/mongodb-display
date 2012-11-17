@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="MongoDB Display">
+		<message>
+			<![CDATA[MongoDB Displayer]]>
+		</message>
+	</layout>
+
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request">
+
+			
+			<field name="server" type="text"
+				label="Server"
+				description="Server URL, IP or localhost" />
+			<field name="database" type="text"
+				label="Database"
+				description="Mongo Databse" />
+			<field name="collection" type="text"
+				label="Collection"
+				description="" />
+			<field name="username" type="text"
+				label="Username"
+				description="" />
+			<field name="password" type="text"
+				label="Password"
+				description="" />
+			<field name="find" type="text"
+				label="find"
+				description="find method either find or findone" />				
+			<field name="filter" type="text"
+				label="Filter"
+				description="" />	
+					
+		</fieldset>
+	</fields>
+<!-- Joomla 1.5 only -->
+	<state>
+		<name>COM_TIENDA_PRODUCTS_DEFAULT_LAYOUT</name>
+		<description>COM_TIENDA_PRODUCTS_DEFAULT_LAYOUT_DESC</description>
+		<url addpath="/administrator/components/com_tienda/elements">
+			<param name="filter_category" type="tiendacategory" section="com_tienda" default="" label="COM_TIENDA_SELECT_CATEGORY" description="COM_TIENDA_A_TIENDA_CATEGORY_ID" />
+		</url>
+	</state>	
+
+</metadata>

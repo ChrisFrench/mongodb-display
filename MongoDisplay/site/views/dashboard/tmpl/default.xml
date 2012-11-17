@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="MONGODISPLAY DASHBOARD DEFAULT LAYOUT">
+		<message>
+			<![CDATA[MONGODISPLAY DASHBOARD DEFAULT LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>MONGODISPLAY DASHBOARD DEFAULT LAYOUT</name>
+		<description>MONGODISPLAY DASHBOARD DEFAULT LAYOUT DESC</description>
+        <!--
+        <url addpath="/administrator/components/com_mongodisplay/elements">
+            <param name="filter_group" type="mongodisplaygroup" section="com_mongodisplay" default="" label="Select Group" description="A Tag Group" />
+            <param name="task" type="hidden" section="com_mongodisplay" default="view" />
+        </url>
+        -->
+	</state>
+</metadata>
